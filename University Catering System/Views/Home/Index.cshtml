@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    <style>
+        .tile {
+            width: 48%;
+            margin: 1%;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+            float: left; /* add this */
+        }
+
+            .tile img {
+                width: 50%;
+                height: auto;
+            }
+
+            .tile h2 {
+                margin-top: 0;
+            }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="tile">
+    @*<img src="https://picsum.photos/200/200" alt="Generic Image">*@
+    <img src="~/pic.jpeg" alt="Image description">
+
+    <h2>Title 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales feugiat libero, non lobortis nulla ullamcorper sit amet. Fusce eu velit vel turpis faucibus rutrum. </p>
+</div>
+<div class="tile">
+    <img src="~/pic.jpeg" alt="Image description">
+    <h2>Title 2</h2>
+    <p>Maecenas blandit faucibus lacus, a efficitur dolor fermentum id. Pellentesque sit amet leo non dolor consectetur aliquet vel ac orci.</p>
+</div>
+<div class="tile">
+    <img src="~/pic.jpeg" alt="Image description">
+    <h2>Title 3</h2>
+    <p>Vestibulum bibendum, arcu sit amet hendrerit tristique, enim velit hendrerit tellus, vitae eleifend libero elit eget lectus.</p>
+</div>
+<div class="tile">
+    <img src="~/pic.jpeg" alt="Image description">
+    <h2>Title 4</h2>
+    <p>Integer vel aliquam arcu. Aliquam aliquam urna mi, ut imperdiet nisi semper sed. Praesent et nulla eu nunc mattis commodo id id lorem.</p>
+</div>
+
+
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
